@@ -25,7 +25,7 @@ function PlantCard({_id, name, category, image, price, description, loadPlants})
 
       <div>
         <Link   
-        className='plant-card-action-btn' to={`/update/${_id}`}>
+        className='plant-card-edit-btn' to={`/update/${_id}`}>
             Edit
             </Link>
 

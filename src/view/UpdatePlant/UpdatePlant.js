@@ -4,6 +4,8 @@ import { useState } from 'react';
 import AddPlant from '../AddPlant/AddPlant';
 import axios from 'axios';
 
+import "./UpdatePlant.css"
+
 import toast, { Toaster } from 'react-hot-toast';
  import { Link } from 'react-router-dom';
  

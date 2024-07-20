@@ -35,4 +35,19 @@
   padding: 3px 20px;
   margin: 0 20px;
   text-decoration: none;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.plant-card-edit-btn{  
+
+    text-decoration: none;
+    background-color: black;
+    color: white;  
+    border-radius: 30px;
+    border: none;
+    padding: 3px 20px;
+    margin: 0 5px;
+    
 }
