@@ -1,0 +1,45 @@
+form{
+    justify-content: center;
+    border: 3px solid black;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 30px;
+    padding:30px 50px;
+    border-radius: 20px;
+}
+.palnt-input{
+    display: block;
+    margin: 10px;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 10%;
+    border: 2px solid black;
+}
+.img-priview{
+    height: 250px;
+    width: 400px;
+    object-fit: cover;
+    margin-left: 10%;
+    
+}
+.add-plant-btn{
+    display: block;
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 35%;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.show-all-palnt-btn{
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    margin-left: 47%;
+    margin-bottom: 50px;
+    text-decoration: none;
+}

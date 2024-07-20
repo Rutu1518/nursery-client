@@ -5,6 +5,8 @@ import "./Home.css"
 import PlantCard from '../../component/PlantCard/PlantCard'
 import axios from 'axios'
 import toast, { Toaster } from 'react-hot-toast'
+import ImgAdd from "./plus.png"
+import { Link } from 'react-router-dom'
 
 function Home() {
 
@@ -17,7 +19,8 @@ function Home() {
     toast.dismiss() 
 
     toast.success("Plants Loaded Successfullly")
-     setPlants(response.data.data)
+
+    setPlants(response.data.data)
  }
 
  useEffect(()=>{
@@ -27,7 +30,7 @@ function Home() {
 
   return (
     <div>
-      <h1>Plants</h1>
+      {/* <h1>Plants</h1> */}
 
       {
         plants.map((plant, i)=>{
@@ -47,10 +50,14 @@ function Home() {
                 category={category} 
                 image={image} 
                 price={price} 
-                description={description}/>)
+                description={description}
+                loadPlants={loadPlants}/>)
         })
       }
     <Toaster/>
+    <Link to="/add">
+    <img src={ImgAdd} className="add-btn"/>
+    </Link>
     </div>
   )
 }
